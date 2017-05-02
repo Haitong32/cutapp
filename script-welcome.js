@@ -69,4 +69,16 @@ $(document).ready(function(){
 
   function newpage() {
   window.location = ("discover.html");
-}});
+}
+$('#slide3').click(function() {
+
+event.preventDefault();
+
+newLocation = this.href;
+$('body').fadeOut(1000, newpage);
+});
+
+function newpage() {
+window.location = ("discover.html");
+}
+});

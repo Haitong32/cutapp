@@ -6,6 +6,9 @@
   font-family: sans-serif;
 }
 
+a{
+  cursor: pointer;
+}
 html,body{
   height: 100%;
   font-family: 'Roboto', sans-serif;
@@ -197,6 +200,7 @@ margin-top: 8px;
   float:left;
   padding-left: 2%;
   margin-top: 30px;
+  padding-bottom: 50px;
 }
 #review-button a{
 font-family: Helvetica-Bold;
@@ -213,5 +217,80 @@ width:50%;
 float: right;
 transform: translate(-28%, 0)
 }
-
+#greyrec{
+background: rgba(155,155,155,0.30);
+width:100%;
+height:200%;
+position: fixed;
+z-index: 95;
+margin:0;
+transform: translate(0,-50%);
+}
+.popup{
+  background-color: white;
+  width:70%;
+  height:480px;
+  position: fixed;
+  transform: translate(21%, -110%);
+  z-index: 100;
+  box-shadow: 8px 4px 4px 0 rgba(0,0,0,0.50);
+  padding: 5%;
+  text-align: center;
+}
+#cross{
+  float:right;
+}
+.popup-text1{
+font-family: Helvetica-Bold;
+font-size: 20px;
+color: #000000;
+line-height: 26px;
+padding-left:15%;
+padding-right:15%;
+padding-top: 8%;
+padding-bottom: 5%;
+}
+#Vacancy{
+  margin-top: 10%;
+}
+#line3{
+  width:74%;
+  height:2px;
+  background-color: black;
+  margin-left: 13%;
+}
+#starus{
+  margin-top:2%;
+  margin-bottom:0;
+  padding-bottom: 0;
+}
+#ratestars{
+  text-align: center;
+  margin-top: 1%;
+}
+.star-rate{
+  width: 30px;
+  margin-left: 5px;
+}
+#commentus{
+  padding-bottom: 1%;
+}
+.commentbox{
+  width:220px;
+  height:121px;
+  border-style:solid;
+  border-width: 2px;
+  border-color: black;
+  transform:translate(5%,0);
+  text-align: left;
+}
+.commentbox p{
+font-family: Helvetica;
+font-size: 14px;
+color: #9B9B9B;
+padding: 2%;
+}
+#done{
+  text-decoration: underline;
+  margin-top:3%;
 }
