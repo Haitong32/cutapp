@@ -109,7 +109,7 @@ html,body{
 #discover-1{
   margin-bottom: .5%;
 }
-.heart{
+.heart, .heart2{
   position:fixed;
   width:100%;
   margin-top: 4%;
@@ -123,15 +123,15 @@ font-family: Helvetica;
 font-size: 14px;
 color: #000000;
 }
-.heart-1, .heart-3{
+.heart-1, .heart-3, .heart-2-1, .heart-2-3{
   position:fixed;
   margin-left: 2%;
 }
-.heart-2, .heart-4{
+.heart-2, .heart-4, .heart-2-2, .heart-2-4{
   position: fixed;
   margin-left: 87.5%;
 }
-.heart-3, .heart-4{
+.heart-3, .heart-4, .heart-2-3, .heart-2-4{
   margin-top:99.5%;
 }
 
