@@ -1,4 +1,6 @@
 $(document).ready(function(){
+  $('body').css('display', 'none');
+  $('body').fadeIn(1000);
   var IMG_WIDTH = 350;
   var currentImg = 0;
   var maxImages = 3;
@@ -11,7 +13,8 @@ $(document).ready(function(){
       threshold: 0
   };
 
-  $(function () {
+  $('#loading').on('click', function () {
+      $('#loading').fadeOut(1000);
       imgs = $(".gallery");
       imgs.swipe(swipeOptions);
   });
@@ -68,7 +71,7 @@ $(document).ready(function(){
   });
 
   function newpage() {
-  window.location = ("discover.html");
+  window.location = ("discover2.html");
 }
 $('#slide3').click(function() {
 
@@ -79,6 +82,6 @@ $('body').fadeOut(1000, newpage);
 });
 
 function newpage() {
-window.location = ("discover.html");
+window.location = ("discover2.html");
 }
 });

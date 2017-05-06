@@ -1,0 +1,274 @@
+*{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  font-family: sans-serif;
+}
+
+html,body{
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+a{
+  cursor:pointer;
+}
+/*Global Layout */
+@media screen and (max-width: 1000px){
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 25px;
+    /*border: 1px dashed rgba(255,0,0,0.3);*/
+    display: inline-block;
+}
+.grid-base{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%
+}
+.grid-base .col-1{
+    height: 1000px;
+}
+.toptop{
+  position:fixed;
+  background-color: white;
+  height: 18%;
+  padding-bottom: 0;
+  z-index: 111;
+
+}
+  #logo{
+    width:175px;
+    float:right;
+    margin-right: -.5%;
+    transform: translate(15%, -26%);
+  }
+  #oval{
+    float:left;
+    transform: translate(-40%, -5%);
+    width:38.5px;
+  }
+
+.bottombar{
+  position:fixed;
+  height:10%;
+  background-color: white;
+  margin-top: 159.5%;
+  padding: 0%;
+  padding-top: 5%;
+  text-align: center;
+  z-index:110;
+}
+.bottom-icons{
+  margin-left: 0%;
+  display: inline-block;
+  margin-top: -3%;
+  width: 32%;
+}
+.bottombar p{
+  font-family: Helvetica;
+  font-size: 10px;
+  color: #000000;
+}
+.bottombar a{
+  text-decoration: none;
+}
+#click{
+  display:block;
+  position:fixed;
+  margin-left:10%;
+  margin-top: -3%;
+}
+
+.salonitems{
+  width:100%;
+  height:100%;
+  transform:translateY(18%);
+  background-color: white;
+}
+#vacancy-link{
+  color:black;
+  text-decoration: none;
+}
+#salonitem1, #salonitem2,#salonitem3,#salonitem4{
+  margin:0;
+  width:100%;
+  height:20%;
+  border-top: 1px solid #DFDFDF;
+  border-bottom: 1px solid #DFDFDF;
+  display: inline-block;
+  padding: 2%;
+}
+#salonitem2{
+  transform: translateY(-65%);
+}
+#salonitem3{
+  transform: translateY(-146.5%);
+}
+#salonitem4{
+  transform: translateY(-211.5%);
+}
+.salonimg{
+  height:100%;
+  border: 1px solid #979797;
+}
+.arrow{
+  width:3%;
+  float:right;
+  transform:translate(-200%,-100%);
+}
+#arrow2{
+  transform:translate(-200%,-260%);
+}
+.salon-info{
+  width:68%;
+  height:90%;
+  transform: translate(50%,-110%);
+  padding-right: 3%;
+  display:inline-block;
+}
+.salon-name{
+font-family: Helvetica-Bold;
+font-size: 20px;
+color: #000000;
+}
+.price{
+  transform: translateY(-30%);
+  font-family: Helvetica-Bold;
+  font-size: 18px;
+  color: #0000FF;
+}
+.salon-detail{
+font-family: Helvetica;
+font-size: 14px;
+color: #000000;
+line-height: 16px;
+}
+.salon-detail a{
+font-family: Helvetica;
+font-size: 14px;
+color: #0000FF;
+text-decoration: underline;
+}
+
+#stars{
+  text-align: right;
+  float: right;
+  transform:translateY(-110%);
+}
+#stars2{
+  text-align: right;
+  float: right;
+  transform:translateY(-230%);
+}
+.star-icon{
+  width:4.5%;
+  display: inline-block;
+}
+
+/*sidebar*/
+
+#sidebar{
+  background-color:white;
+  box-shadow: 0 8px 8px 4px rgba(0,0,0,0.50);
+  width:75%;
+  height:100%;
+  position: fixed;
+  z-index: 160;
+}
+#logo2{
+  width:60%;
+  float:left;
+  margin-left: -9%;
+  transform: translate(15%, 4%);
+}
+#oval2{
+  float:left;
+  width:23%;
+  margin-top: 1%;
+}
+#user{
+  width:100%;
+  height:13%;
+  display: inline-block;
+  padding-left: 5%;
+  padding-right: 12%;
+  margin-top: 20%;
+}
+#name p{
+font-family: Helvetica-Bold;
+font-size: 18px;
+color: #000000;
+margin-right: 0;
+}
+#name{
+  width:50%;
+  margin-left: 27%;
+  margin-top: 8%;
+}
+#salonlist, #hairstylelist{
+  color: black;
+}
+#vip{
+  width:12%;
+  transform: translate(330%,-200%);
+}
+#arrow{
+  width:3%;
+  float: right;
+  margin-top: -6%;
+}
+#hairstyle{
+  width:100%;
+  height:8%;
+  display: inline-block;
+  padding-left: 5%;
+  padding-right: 12%;
+  padding-top: 7%;
+  padding-bottom: 5%;
+  background: rgba(155,155,155,0.10);
+  border-bottom:1px solid #DCDCDC;
+}
+#user-heart{
+  width:8%;
+  float:left;
+  margin-left:8%;
+}
+#hs{
+  width:50%;
+  margin-left:20%;
+}
+#salon{
+  width:100%;
+  height:8%;
+  display: inline-block;
+  padding-left: 5%;
+  padding-right: 12%;
+  padding-top: 7%;
+  padding-bottom: 5%;
+  background: rgba(155,155,155,0.10);
+}
+#user-star{
+  width:8%;
+  float:left;
+  margin-left:8%;
+}
+#sl{
+  width:50%;
+  margin-left:20%;
+}
+}
