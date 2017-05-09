@@ -13,8 +13,7 @@ $(document).ready(function(){
       threshold: 0
   };
 
-  $('#loading').on('click', function () {
-      $('#loading').fadeOut(1000);
+  $('.gallery').on('click', function () {
       imgs = $(".gallery");
       imgs.swipe(swipeOptions);
   });

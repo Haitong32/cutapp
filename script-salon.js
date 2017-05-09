@@ -15,10 +15,14 @@ $(document).ready(function(){
          $("#sidebar").slideToggle()
            return false;
        });
+       $("#me").click(function(){
+              $("#sidebar").slideToggle()
+                return false;
+            });
    $("#logo2").click(function(){
               $("#sidebar").slideToggle()
                 return false;
             });
 
   });
-;  
+;
