@@ -360,7 +360,7 @@ resize:none;
   width:75%;
   height:100%;
   position: fixed;
-  z-index: 160;  
+  z-index: 160;
 }
 #logo2{
   width:60%;
@@ -439,4 +439,7 @@ margin-right: 0;
 #sl{
   width:50%;
   margin-left:20%;
+}
+#salonlist, #hairstylelist{
+  color:black;
 }
