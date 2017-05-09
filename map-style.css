@@ -6,14 +6,13 @@
   font-family: sans-serif;
 }
 
-a{
-  cursor: pointer;
-}
 html,body{
   height: 100%;
   font-family: 'Roboto', sans-serif;
 }
-
+a{
+  cursor:pointer;
+}
 /*Global Layout */
 @media screen and (max-width: 1000px){
 .col-1 {width: 8.33%;}
@@ -47,11 +46,11 @@ html,body{
 .toptop{
   position:fixed;
   background-color: white;
-  height: 27%;
-  z-index: 9;
+  height: 25%;
+  padding-bottom: 0;
 }
   #logo{
-    width:50%;
+    width:175px;
     float:right;
     margin-right: -.5%;
     transform: translate(15%, -26%);
@@ -59,46 +58,148 @@ html,body{
   #oval{
     float:left;
     transform: translate(-40%, -5%);
-    width:11%;
+    width:38.5px;
   }
-#title{
-  position:fixed;
-  width:50%;
-  margin-left: 2%;
-  margin-top: 31%;
-  z-index: 10;
-}
-#title a{
-font-family: Helvetica-Bold;
-font-size: 36px;
-color: #000000;
-line-height: 45px;
-}
-#star1, #star3{
-  width:7%;
-  margin-left: 40%;
+
+.topbar{
+    position:fixed;
+    height:12%;
+    background-color: white;
+    margin-top: 23.5%;
+    padding-right: 0;
+    padding-top: 1%;
+    padding-bottom: 0;
+  }
+.meta ul{
   position: fixed;
-  margin-top: 3%;
+  width: 100%;
+  transform: translate(-10%,0)
 }
-#nw{
-  width:10%;
+.meta li{
+  font-family: Helvetica-Bold;
+  font-size: 20px;
+  color: #000000;
+  list-style: none;
+  float: right;
+  margin-left: 25%;
+  border-bottom: 2px solid black;
+  cursor: pointer;
+  }
+.meta2{
+  margin-top: 10%;
+}
+.meta2 ul{
+    position: fixed;
+    width: 100%;
+    transform: translate(-10%,0)
+  }
+.meta2 li{
+font-family: Helvetica;
+font-size: 18px;
+color: #000000;
+list-style: none;
+float: right;
+margin-left: 8%;
+cursor:pointer;
+}
+.meta3{
+  margin-top: 10%;
+}
+.meta3 ul{
+    position: fixed;
+    width: 255px;
+    margin-left: -9%;
+  }
+.meta3 li{
+  font-family: Helvetica;
+  font-size: 18px;
+  color: #000000;
+  list-style: none;
+  float: left;
+  margin-left: 12.5%;
+  cursor:pointer;
+  }
+#click2{
+  position:fixed;
+  z-index: 120;
+  transform:translate(270px, 46px);
+}
+#click3{
+  position:fixed;
+  z-index: 111;
+  transform:translate(-20px, 46px);
+}
+.mapfeed{
+  width:100%;
+  height:70%;
+  position: fixed;
+  transform:translateY(30%);
+  background-image: url("img/map1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*#map1{
+  width:100%;
+}*/
+
+.bottombar{
+  position:fixed;
+  height:10%;
+  background-color: white;
+  margin-top: 159.5%;
+  padding: 0%;
+  padding-top: 5%;
+  text-align: center;
+  z-index:110;
+}
+.bottom-icons{
+  margin-left: 0%;
+  display: inline-block;
+  margin-top: -3%;
+  width: 32%;
+}
+.bottombar p{
+  font-family: Helvetica;
+  font-size: 10px;
+  color: #000000;
+}
+.bottombar a{
+  text-decoration: none;
+}
+#click{
+  display:block;
+  position:fixed;
+  margin-left:78%;
+  margin-top: -3%;
 }
 .content{
-  transform: translate(0,21%);
+  position: fixed;
+  z-index:120;
 }
-.discover-image2{
+#greyrec{
+background: rgba(155,155,155,0.30);
+width:100%;
+height:200%;
+position: fixed;
+z-index: 121;
+margin:0;
+transform: translate(0,-50%);
+}
+#location{
+  width:70%;
+  box-shadow: 2px 2px 8px 0 rgba(0,0,0,0.30);
+}
+
+.popup{
+  width:100%;
+  position: fixed;
+  transform: translateY(120%);
   text-align: center;
-  transform: translate(0,25%);
-  z-index: 109;
+  z-index: 122;
 }
-.discover-image2 img{
-  padding:0;
-  width:130px;
-  height:130px;
-  margin:0;
+#cross{
+  float:right;
 }
-
-
 #sidebar{
   background-color:white;
   box-shadow: 0 8px 8px 4px rgba(0,0,0,0.50);
@@ -176,9 +277,6 @@ margin-right: 0;
   padding-bottom: 5%;
   background: rgba(155,155,155,0.10);
 }
-#salonlist, #hairstylelist{
-  color:black;
-}
 #user-star{
   width:8%;
   float:left;
@@ -188,24 +286,7 @@ margin-right: 0;
   width:50%;
   margin-left:20%;
 }
-.bottombar{
-  position:fixed;
-  height:10%;
-  background-color: white;
-  margin-top: 159.5%;
-  padding: 0%;
-  padding-top: 5%;
-  text-align: center;
-  z-index:110;
+#salonlist, #hairstylelist{
+  color: black;
 }
-.bottom-icons{
-  margin-left: 0%;
-  display: inline-block;
-  margin-top: -3%;
-  width: 32%;
-}
-.bottombar p{
-  font-family: Helvetica;
-  font-size: 10px;
-  color: #000000;
 }

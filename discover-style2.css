@@ -57,6 +57,7 @@ a{
   #oval{
     float:left;
     transform: translate(-40%, -5%);
+    width:11%;
   }
 
 .topbar{
